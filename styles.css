@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background: url(./week-4-assignment-4-starter-files-codewithay-main/images/bg-tablet-pattern.svg)
+    no-repeat 100% -8%,url(./week-4-assignment-4-starter-files-codewithay-main/images/bg-tablet-pattern.svg) no-repeat -30% 66%;
+  background-size: 600px;
+  line-height: 1.25;
+  width: 100%;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navimage {
+  width: 200px;
+  margin-top: 8px;
+  height: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+h2 {
+  margin-left: -385px;
+}
+header {
+  margin: 20px 60px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+   perspective: 800px;
+}
+.para-1 {
+  width: 300px;
+}
+header img{
+  width: 485px;
+  transition-duration: 3s;
+}
+header p {
+  text-align: justify;
+}
+header button {
+  margin-top: 17px;
+  background-color: coral;
+  color: white;
+  border: 4px solid coral;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 25%;
+  text-align: center;
+}
+.first button {
+  background-color: coral;
+  color: white;
+  border: 4px solid coral;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 25%;
+  text-align: center;
+}
+.illustration {
+  margin-top: -40px;
+  padding: 20px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+main div {
+  width: 350px;
+}
+.mainfirst {
+  margin-left: -30px;
+}
+main p {
+  text-align: justify;
+}
+.flex1,
+.flex2,
+.flex3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex1 span,
+.flex2 span,
+.flex3 span {
+  margin-right: 20px;
+}
+.flex1 div,
+.flex2 div,
+.flex3 div {
+  margin-bottom: 20px;
+}
+.flex1 span,
+.flex2 span,
+.flex3 span {
+  background-color: coral;
+  border: 2px solid coral;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 50px;
+  color: white;
+}
+.beforesection h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.section-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.section-two div {
+  width: 350px;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.section-two img {
+  width: 70px;
+  margin-left: 75px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.section-two h3 {
+  margin-left: 70px;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+q {
+  text-align: justify;
+  padding: 5px;
+}
+.button-3 {
+  background-color: coral;
+  color: white;
+  border: 4px solid coral;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 25%;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 40px;
+}
+.prefooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: coral;
+  color: white;
+  border: none;
+  height: 100px;
+  margin-top: 40px;
+}
+.prefooter p {
+  font-weight: 700;
+  text-align: justify;
+  margin-left: 60px;
+  font-size: 1.35rem;
+}
+.prefooter button {
+  background-color: white;
+  color: coral;
+  border: 4px solid white;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 25%;
+  text-align: center;
+  margin-right: 60px;
+}
+footer {
+  background-color: rgba(7, 1, 1, 0.87);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.firstfoot {
+  padding: 10px;
+}
+.firstfoot img {
+  width: 20px;
+  height: 25px;
+}
+#different-image {
+  width: 150px;
+  height: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+#email {
+  border: 2px solid white;
+  border-radius: 20%;
+  padding: 10px;
+}
+.secondform {
+  border: 1px solid coral;
+  padding: 6px;
+  border-radius: 30%;
+  background-color: coral;
+  color: white;
+}
+a {
+  transition-duration: 2s;
+}
+a:hover {
+  color: coral;
+  text-decoration: underline;
+  transition-timing-function: ease-in-out;
+}
+header img:hover{
+  
+   transform: rotate3d(0,0,1,360deg) scale(0.5) translate(150px); 
+    border: 4px solid coral;
+  border-radius: 50%;
+  background-color: coral;  
+  cursor: all-scroll;
+  
+}
+
+/* ==============MEDIA QUERY================== */
